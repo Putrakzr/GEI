@@ -30,12 +30,12 @@ if (freeConsultationForm) {
 
     // Format WhatsApp message
     const message =
-      `Halo, saya ingin konsultasi pajak.%0A%0A` +
+      `Halo, saya ingin ekspor barang.%0A%0A` +
       `Nama: ${encodeURIComponent(fullName)}%0A` +
       `Perusahaan/Bisnis: ${encodeURIComponent(companyName)}%0A` +
       `No. Telepon: ${encodeURIComponent(phoneNumber)}%0A` +
       `Email: ${encodeURIComponent(emailAddress)}%0A%0A` +
-      `Mohon informasi lebih lanjut mengenai layanan konsultasi pajak.`;
+      `Mohon informasi lebih lanjut mengenai layanan ekspor barang.`;
 
     // WhatsApp number (replace with actual number)
     const whatsappNumber = "6285754828055";
